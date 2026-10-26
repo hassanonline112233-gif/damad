@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Broken orbital ring arc -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#2DE2C5"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M30,38 C38,24 70,24 78,38" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1E6B55"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M24,72 C32,86 76,86 84,72" />
+
+    <!-- Spaceship ascender silhouette -->
+    <path
+        android:fillColor="#13362A"
+        android:strokeColor="#2DE2C5"
+        android:strokeWidth="2.0"
+        android:strokeLineJoin="round"
+        android:pathData="M54,26 L64,46 L72,66 L59,62 L57,74 L51,74 L49,62 L36,66 L44,46 Z" />
+
+    <!-- Cockpit viewport dot -->
+    <path
+        android:fillColor="#D7FFF4"
+        android:pathData="M54,42m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0" />
+
+    <!-- Engine thrust spark -->
+    <path
+        android:fillColor="#FFB86B"
+        android:pathData="M54,77 L56,83 L54,81 L52,83 Z" />
+</vector>
